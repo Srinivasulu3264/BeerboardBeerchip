@@ -29,7 +29,7 @@ s.summary      = "It Contains beerchips login view. after login you will get the
 
   s.ios.deployment_target = "11.0"
 
-  s.source       = { :git => "http://EXAMPLE/BeerboardBeerchip.git", :tag => "1.1.1" }
+  s.source       = { :git => "https://github.com/Srinivasulu3264/BeerboardBeerchip.git", :tag => "1.1.1" }
 
 
   s.source_files  = "BeerboardBeerchip", "BeerboardBeerchip/**/*.{h,m,swift}"
