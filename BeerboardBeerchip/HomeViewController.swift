@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController ,UICollectionViewDataSource,UICollectionViewDelegate ,UICollectionViewDelegateFlowLayout {
+public class HomeViewController: UIViewController ,UICollectionViewDataSource,UICollectionViewDelegate ,UICollectionViewDelegateFlowLayout {
 
     @IBOutlet weak var menuBarCollectionView: UICollectionView!
     
@@ -23,7 +23,7 @@ class HomeViewController: UIViewController ,UICollectionViewDataSource,UICollect
     var menuImagesArr = [String]()
     
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         menuTitleArr = ["HOME","LOCATOR","ORDER","REWARDS","MORE"]
@@ -45,7 +45,7 @@ class HomeViewController: UIViewController ,UICollectionViewDataSource,UICollect
         // Do any additional setup after loading the view.
     }
 
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         // Hide the navigation bar on the this view controller
@@ -68,12 +68,12 @@ class HomeViewController: UIViewController ,UICollectionViewDataSource,UICollect
     }
     
     
-    func collectionView(_ collectionView: UICollectionView,layout collectionViewLayout: UICollectionViewLayout,sizeForItemAt indexPath: IndexPath) -> CGSize
+    public func collectionView(_ collectionView: UICollectionView,layout collectionViewLayout: UICollectionViewLayout,sizeForItemAt indexPath: IndexPath) -> CGSize
     {
         
         return CGSize(width: (self.menuBarCollectionViewContainerview.frame.size.width-2.0)/5.0  , height: (self.menuBarCollectionViewContainerview.frame.size.height)  )
     }
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         /*
         if indexPath.row == 1 {
