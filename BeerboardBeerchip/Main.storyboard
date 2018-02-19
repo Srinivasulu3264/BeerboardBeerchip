@@ -453,7 +453,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" red="0.29136479659999998" green="1" blue="0.57469723610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.51811244020205272" green="0.857676656741442" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ARy-Ab-0xy" firstAttribute="top" secondItem="MFR-Qh-KcN" secondAttribute="top" id="3Vh-O4-5x1"/>
                             <constraint firstAttribute="trailing" secondItem="ARy-Ab-0xy" secondAttribute="trailing" id="YTO-OX-kCV"/>
@@ -484,7 +484,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" red="0.91086238620000004" green="0.62060077879999997" blue="0.80237048249999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.71494346857070923" green="0.909107506275177" blue="0.44203096628189087" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="aPW-me-2jM" firstAttribute="top" secondItem="XCu-pw-4Ya" secondAttribute="top" id="5Hp-Me-wba"/>
                             <constraint firstItem="aPW-me-2jM" firstAttribute="leading" secondItem="vlI-Mu-K5v" secondAttribute="leading" id="BTK-jk-YbG"/>
@@ -533,7 +533,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.49847649700000002" blue="0.26420443910000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.49075549840927124" green="0.90824592113494873" blue="0.3771403431892395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="l6c-xk-Lym" firstAttribute="top" secondItem="67F-Ib-K2i" secondAttribute="top" id="FFy-k2-TpY"/>
                             <constraint firstItem="l6c-xk-Lym" firstAttribute="leading" secondItem="iLn-jl-aAN" secondAttribute="leading" id="ZbQ-uB-RHM"/>
@@ -555,7 +555,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kOK-ak-fIC">
-                                <rect key="frame" x="0.0" y="20" width="375" height="70"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="qbA-jK-J0B"/>
                                 </constraints>
@@ -564,10 +564,10 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" red="0.87447822090000005" green="0.34650147529999997" blue="0.809503733" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.46030128002166748" green="0.18162745237350464" blue="0.92601829767227173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="kOK-ak-fIC" firstAttribute="top" secondItem="Inp-3i-hlY" secondAttribute="top" id="3SG-tW-gOw"/>
                             <constraint firstItem="kOK-ak-fIC" firstAttribute="leading" secondItem="Inp-3i-hlY" secondAttribute="leading" id="9Tz-Zt-ulG"/>
+                            <constraint firstItem="kOK-ak-fIC" firstAttribute="top" secondItem="PSG-4n-LMC" secondAttribute="top" id="cyk-cc-bOS"/>
                             <constraint firstAttribute="trailing" secondItem="kOK-ak-fIC" secondAttribute="trailing" id="yfk-3n-87I"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Inp-3i-hlY"/>
@@ -575,7 +575,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VKR-gC-l99" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="513"/>
+            <point key="canvasLocation" x="1778" y="533"/>
         </scene>
         <!--Container View Controller-->
         <scene sceneID="gJU-NL-G7P">
@@ -610,7 +610,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.29136479659999998" green="1" blue="0.57469723610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="dhM-0K-Jl0" firstAttribute="leading" secondItem="8S7-39-UwY" secondAttribute="leading" constant="12" id="EgO-G5-Nv0"/>
                                                     <constraint firstItem="dhM-0K-Jl0" firstAttribute="top" secondItem="8S7-39-UwY" secondAttribute="top" constant="2" id="F2j-H2-6zn"/>
@@ -647,7 +646,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.29136479659999998" green="1" blue="0.57469723610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="HHF-Zt-JoE" secondAttribute="trailing" id="3IH-ao-B8p"/>
                                                     <constraint firstItem="c3e-IX-GBG" firstAttribute="top" secondItem="Hqi-Iq-mBl" secondAttribute="bottom" constant="1" id="561-KT-n39"/>
@@ -684,7 +682,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.29136479659999998" green="1" blue="0.57469723610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="TTZ-Mz-3yt" secondAttribute="trailing" id="3je-QA-jEN"/>
                                                     <constraint firstItem="TTZ-Mz-3yt" firstAttribute="top" secondItem="Dd3-u3-oIT" secondAttribute="top" id="4YL-Dj-rM0"/>
@@ -721,7 +718,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.29136479659999998" green="1" blue="0.57469723610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="w4u-Zi-ZYC" firstAttribute="leading" secondItem="JfE-dc-6ot" secondAttribute="leading" id="3b3-ru-vLj"/>
                                                     <constraint firstItem="gY3-FH-aeY" firstAttribute="top" secondItem="JfE-dc-6ot" secondAttribute="top" constant="2" id="9ad-0k-ahD"/>
@@ -758,7 +754,6 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.29136479659999998" green="1" blue="0.57469723610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="2Km-8S-r2m" firstAttribute="leading" secondItem="aa9-aS-hoW" secondAttribute="leading" id="2j1-Jm-q8T"/>
                                                     <constraint firstItem="Vok-Wc-dal" firstAttribute="top" secondItem="aa9-aS-hoW" secondAttribute="top" constant="2" id="65z-Wq-QOu"/>
@@ -799,6 +794,23 @@
                         <viewLayoutGuide key="safeArea" id="PPr-LQ-vuQ"/>
                     </view>
                     <size key="freeformSize" width="375" height="70"/>
+                    <connections>
+                        <outlet property="homeButton" destination="Ah3-if-gk1" id="oSy-pS-ywU"/>
+                        <outlet property="homeImageview" destination="dhM-0K-Jl0" id="PEb-RI-0vH"/>
+                        <outlet property="homeTitleLbl" destination="coE-hn-3wB" id="Oyt-5k-SBR"/>
+                        <outlet property="locationButton" destination="HHF-Zt-JoE" id="MJb-Hm-nDL"/>
+                        <outlet property="locationImageview" destination="Hqi-Iq-mBl" id="dd6-2Y-BRN"/>
+                        <outlet property="locationTitleLbl" destination="c3e-IX-GBG" id="JJg-Ht-vXR"/>
+                        <outlet property="moreButton" destination="gNo-eN-Hno" id="kS5-Ye-UiX"/>
+                        <outlet property="moreImageView" destination="Vok-Wc-dal" id="e8Q-Zs-KM7"/>
+                        <outlet property="moreTitleLbl" destination="2Km-8S-r2m" id="Bg0-WN-dfc"/>
+                        <outlet property="orderButton" destination="TTZ-Mz-3yt" id="q7m-j4-wVZ"/>
+                        <outlet property="orderImageView" destination="DuD-pV-PXH" id="5Ry-QK-Zjz"/>
+                        <outlet property="orderTitleLbl" destination="iEL-O1-TMu" id="cQ1-8Z-iJ4"/>
+                        <outlet property="rewardsButton" destination="w4u-Zi-ZYC" id="wq2-QA-AIw"/>
+                        <outlet property="rewardsImageview" destination="gY3-FH-aeY" id="cGV-0c-QYd"/>
+                        <outlet property="rewardsTitleLbl" destination="WYb-X7-gL5" id="z8O-zF-sZ2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="loM-Vb-G7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -819,6 +831,6 @@
         <image name="view-redeem-icon" width="21" height="26"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sZT-nr-0CF"/>
+        <segue reference="K4C-vl-YPS"/>
     </inferredMetricsTieBreakers>
 </document>

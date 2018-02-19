@@ -12,10 +12,39 @@ class ContainerViewController: UIViewController  {
 
     let transition = Animations()
     
+    @IBOutlet weak var homeButton: UIButton!
+    @IBOutlet weak var homeImageview: UIImageView!
+    @IBOutlet weak var homeTitleLbl: UILabel!
+    
+    @IBOutlet weak var locationButton: UIButton!
+    @IBOutlet weak var locationImageview: UIImageView!
+    @IBOutlet weak var locationTitleLbl: UILabel!
+    
+    @IBOutlet weak var orderButton: UIButton!
+    @IBOutlet weak var orderImageView: UIImageView!
+    @IBOutlet weak var orderTitleLbl: UILabel!
+    
+    @IBOutlet weak var rewardsButton: UIButton!
+    @IBOutlet weak var rewardsImageview: UIImageView!
+    @IBOutlet weak var rewardsTitleLbl: UILabel!
+    
+    @IBOutlet weak var moreButton: UIButton!
+    @IBOutlet weak var moreImageView: UIImageView!
+    @IBOutlet weak var moreTitleLbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+
+    func InvertColorForImages()  {
+        
+        
+        
+        
     }
 
 
@@ -25,6 +54,19 @@ class ContainerViewController: UIViewController  {
         let  homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
          homeVC.transitioningDelegate = self
         self.present(homeVC , animated: true, completion: nil)
+        
+        if homeButton.isSelected {
+            homeImageview.image = #imageLiteral(resourceName: "HomeInvert")
+            homeTitleLbl.textColor = .white
+            homeButton.isSelected = false
+        }
+        else
+        {
+            homeImageview.image = #imageLiteral(resourceName: "Home")
+            homeTitleLbl.textColor = .red
+            homeButton.isSelected = true
+            
+        }
     }
     
    
@@ -33,6 +75,21 @@ class ContainerViewController: UIViewController  {
         let  locatorVC  = self.storyboard?.instantiateViewController(withIdentifier: "LocatorViewController") as! LocatorViewController
         locatorVC.transitioningDelegate = self
         self.present(locatorVC , animated: true, completion: nil)
+        
+        
+        if locationButton.isSelected {
+            locationImageview.image = #imageLiteral(resourceName: "location")
+            locationTitleLbl.textColor = .white
+            locationButton.isSelected = false
+        }
+        else
+        {
+            locationImageview.image = #imageLiteral(resourceName: "LocationInvert")
+            locationTitleLbl.textColor = .red
+            locationButton.isSelected = false
+            
+        }
+        
     }
     
     
