@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-143" y="125"/>
+            <point key="canvasLocation" x="388" y="111"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="IPt-rk-Oem">
@@ -453,7 +453,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.29136479659999998" green="1" blue="0.57469723610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ARy-Ab-0xy" firstAttribute="top" secondItem="MFR-Qh-KcN" secondAttribute="top" id="3Vh-O4-5x1"/>
                             <constraint firstAttribute="trailing" secondItem="ARy-Ab-0xy" secondAttribute="trailing" id="YTO-OX-kCV"/>
@@ -484,7 +484,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.91086238620000004" green="0.62060077879999997" blue="0.80237048249999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="aPW-me-2jM" firstAttribute="top" secondItem="XCu-pw-4Ya" secondAttribute="top" id="5Hp-Me-wba"/>
                             <constraint firstItem="aPW-me-2jM" firstAttribute="leading" secondItem="vlI-Mu-K5v" secondAttribute="leading" id="BTK-jk-YbG"/>
@@ -495,7 +495,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="um0-FI-zfd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1161" y="966"/>
+            <point key="canvasLocation" x="854" y="820"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cVD-PU-oqb">
@@ -533,7 +533,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.49847649700000002" blue="0.26420443910000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="l6c-xk-Lym" firstAttribute="top" secondItem="67F-Ib-K2i" secondAttribute="top" id="FFy-k2-TpY"/>
                             <constraint firstItem="l6c-xk-Lym" firstAttribute="leading" secondItem="iLn-jl-aAN" secondAttribute="leading" id="ZbQ-uB-RHM"/>
@@ -564,7 +564,7 @@
                                 </connections>
                             </containerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.87447822090000005" green="0.34650147529999997" blue="0.809503733" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="kOK-ak-fIC" firstAttribute="top" secondItem="Inp-3i-hlY" secondAttribute="top" id="3SG-tW-gOw"/>
                             <constraint firstItem="kOK-ak-fIC" firstAttribute="leading" secondItem="Inp-3i-hlY" secondAttribute="leading" id="9Tz-Zt-ulG"/>
@@ -670,6 +670,9 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TTZ-Mz-3yt">
                                                         <rect key="frame" x="0.0" y="0.0" width="75" height="70"/>
+                                                        <connections>
+                                                            <action selector="orderButtonAction:" destination="X3Y-Yb-NFd" eventType="touchUpInside" id="rg4-yI-WH3"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="order" translatesAutoresizingMaskIntoConstraints="NO" id="DuD-pV-PXH">
                                                         <rect key="frame" x="12" y="2" width="50" height="47"/>
@@ -704,6 +707,9 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4u-Zi-ZYC">
                                                         <rect key="frame" x="0.0" y="0.0" width="75" height="70"/>
+                                                        <connections>
+                                                            <action selector="rewardsButtonAction:" destination="X3Y-Yb-NFd" eventType="touchUpInside" id="K5b-Fb-2HY"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="rewards" translatesAutoresizingMaskIntoConstraints="NO" id="gY3-FH-aeY">
                                                         <rect key="frame" x="12" y="2" width="50" height="47"/>
@@ -738,6 +744,9 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNo-eN-Hno">
                                                         <rect key="frame" x="0.0" y="0.0" width="75" height="70"/>
+                                                        <connections>
+                                                            <action selector="moreButtonAction:" destination="X3Y-Yb-NFd" eventType="touchUpInside" id="Ri0-MZ-5aF"/>
+                                                        </connections>
                                                     </button>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" image="more" translatesAutoresizingMaskIntoConstraints="NO" id="Vok-Wc-dal">
                                                         <rect key="frame" x="12" y="2" width="50" height="47"/>
@@ -793,7 +802,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="loM-Vb-G7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1906" y="-92"/>
+            <point key="canvasLocation" x="1818" y="-100"/>
         </scene>
     </scenes>
     <resources>
@@ -810,6 +819,6 @@
         <image name="view-redeem-icon" width="21" height="26"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0pk-O4-ldn"/>
+        <segue reference="sZT-nr-0CF"/>
     </inferredMetricsTieBreakers>
 </document>
