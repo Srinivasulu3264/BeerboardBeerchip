@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86C2D875203AAE0900408EC0 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D874203AAE0900408EC0 /* OrderViewController.swift */; };
+		86C2D877203AAE0F00408EC0 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D876203AAE0F00408EC0 /* MoreViewController.swift */; };
+		86C2D879203AAE1E00408EC0 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D878203AAE1E00408EC0 /* RewardsViewController.swift */; };
+		86C2D87B203AC58E00408EC0 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D87A203AC58E00408EC0 /* ContainerViewController.swift */; };
+		86C2D87F203ACCD600408EC0 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C2D87E203ACCD500408EC0 /* Animations.swift */; };
 		86F4232F2036A9D40099039A /* BeerboardBeerchip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F423252036A9D40099039A /* BeerboardBeerchip.framework */; };
 		86F423342036A9D40099039A /* BeerboardBeerchipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F423332036A9D40099039A /* BeerboardBeerchipTests.swift */; };
 		86F423362036A9D40099039A /* BeerboardBeerchip.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F423282036A9D40099039A /* BeerboardBeerchip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86F423432036AA5F0099039A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4233F2036AA5F0099039A /* SplashViewController.swift */; };
 		86F423442036AA5F0099039A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F423402036AA5F0099039A /* HomeViewController.swift */; };
 		86F423452036AA5F0099039A /* LocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F423412036AA5F0099039A /* LocatorViewController.swift */; };
-		86F423462036AA5F0099039A /* MenuBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F423422036AA5F0099039A /* MenuBarCollectionViewCell.swift */; };
 		86F423482036AA740099039A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F423472036AA740099039A /* Main.storyboard */; };
 		86F4234A2036AAAC0099039A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F423492036AAAC0099039A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -29,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86C2D874203AAE0900408EC0 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		86C2D876203AAE0F00408EC0 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		86C2D878203AAE1E00408EC0 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		86C2D87A203AC58E00408EC0 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		86C2D87E203ACCD500408EC0 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		86F423252036A9D40099039A /* BeerboardBeerchip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeerboardBeerchip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F423282036A9D40099039A /* BeerboardBeerchip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeerboardBeerchip.h; sourceTree = "<group>"; };
 		86F423292036A9D40099039A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,7 +47,6 @@
 		86F4233F2036AA5F0099039A /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		86F423402036AA5F0099039A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		86F423412036AA5F0099039A /* LocatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocatorViewController.swift; sourceTree = "<group>"; };
-		86F423422036AA5F0099039A /* MenuBarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarCollectionViewCell.swift; sourceTree = "<group>"; };
 		86F423472036AA740099039A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		86F423492036AAAC0099039A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +93,12 @@
 			children = (
 				86F423282036A9D40099039A /* BeerboardBeerchip.h */,
 				86F423402036AA5F0099039A /* HomeViewController.swift */,
+				86C2D87A203AC58E00408EC0 /* ContainerViewController.swift */,
 				86F423412036AA5F0099039A /* LocatorViewController.swift */,
-				86F423422036AA5F0099039A /* MenuBarCollectionViewCell.swift */,
+				86C2D87E203ACCD500408EC0 /* Animations.swift */,
+				86C2D874203AAE0900408EC0 /* OrderViewController.swift */,
+				86C2D876203AAE0F00408EC0 /* MoreViewController.swift */,
+				86C2D878203AAE1E00408EC0 /* RewardsViewController.swift */,
 				86F4233F2036AA5F0099039A /* SplashViewController.swift */,
 				86F423492036AAAC0099039A /* Assets.xcassets */,
 				86F423472036AA740099039A /* Main.storyboard */,
@@ -218,9 +230,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F423452036AA5F0099039A /* LocatorViewController.swift in Sources */,
+				86C2D879203AAE1E00408EC0 /* RewardsViewController.swift in Sources */,
+				86C2D87B203AC58E00408EC0 /* ContainerViewController.swift in Sources */,
+				86C2D875203AAE0900408EC0 /* OrderViewController.swift in Sources */,
+				86C2D87F203ACCD600408EC0 /* Animations.swift in Sources */,
 				86F423432036AA5F0099039A /* SplashViewController.swift in Sources */,
+				86C2D877203AAE0F00408EC0 /* MoreViewController.swift in Sources */,
 				86F423442036AA5F0099039A /* HomeViewController.swift in Sources */,
-				86F423462036AA5F0099039A /* MenuBarCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

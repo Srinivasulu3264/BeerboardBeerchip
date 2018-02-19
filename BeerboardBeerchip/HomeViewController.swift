@@ -8,10 +8,8 @@
 
 import UIKit
 
-public class HomeViewController: UIViewController ,UICollectionViewDataSource,UICollectionViewDelegate ,UICollectionViewDelegateFlowLayout {
+public class HomeViewController: UIViewController  {
 
-    @IBOutlet weak var menuBarCollectionView: UICollectionView!
-    
     @IBOutlet weak var menuBarCollectionViewContainerview: UIView!
     
     @IBOutlet weak var rewardsLbl: UILabel!
@@ -19,6 +17,7 @@ public class HomeViewController: UIViewController ,UICollectionViewDataSource,UI
     @IBOutlet weak var rewardsBtn: UIButton!
     @IBOutlet weak var entercodeBtn: UIButton!
     
+    @IBOutlet weak var viewRedeemButton: UIButton!
     var menuTitleArr = [String]()
     var menuImagesArr = [String]()
     
@@ -40,6 +39,8 @@ public class HomeViewController: UIViewController ,UICollectionViewDataSource,UI
         
          rewardsBtn.layer.cornerRadius = 8.0
          entercodeBtn.layer.cornerRadius = 8.0
+         viewRedeemButton.layer.cornerRadius = 8.0
+
         
         
         // Do any additional setup after loading the view.
@@ -52,35 +53,6 @@ public class HomeViewController: UIViewController ,UICollectionViewDataSource,UI
         self.navigationController?.setNavigationBarHidden(true, animated: animated)
     }
     
-    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
-    {
-        return menuTitleArr.count
-    }
-    
-    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
-    {
-        let collectionCell = collectionView.dequeueReusableCell(withReuseIdentifier: "menuBarCell", for: indexPath) as! MenuBarCollectionViewCell
-        
-       collectionCell.menuBarTitle.text = menuTitleArr[indexPath.row]
-       collectionCell.menuImageView.image = UIImage(named: menuImagesArr[indexPath.row])
-
-        return collectionCell
-    }
-    
-    
-    public func collectionView(_ collectionView: UICollectionView,layout collectionViewLayout: UICollectionViewLayout,sizeForItemAt indexPath: IndexPath) -> CGSize
-    {
-        
-        return CGSize(width: (self.menuBarCollectionViewContainerview.frame.size.width-2.0)/5.0  , height: (self.menuBarCollectionViewContainerview.frame.size.height)  )
-    }
-    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
-        /*
-        if indexPath.row == 1 {
-            performSegue(withIdentifier: "toLocatorSegue", sender: self)
-        }
- */
-    }
     
 }
 
