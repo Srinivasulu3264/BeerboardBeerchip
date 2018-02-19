@@ -11,12 +11,9 @@ import UIKit
 public class HomeViewController: UIViewController  {
 
     @IBOutlet weak var menuBarCollectionViewContainerview: UIView!
-    
     @IBOutlet weak var rewardsLbl: UILabel!
-    
     @IBOutlet weak var rewardsBtn: UIButton!
     @IBOutlet weak var entercodeBtn: UIButton!
-    
     @IBOutlet weak var viewRedeemButton: UIButton!
     var menuTitleArr = [String]()
     var menuImagesArr = [String]()
@@ -31,8 +28,7 @@ public class HomeViewController: UIViewController  {
         rewardsLbl.layer.borderWidth = 1.0
         rewardsLbl.layer.borderColor = UIColor.red.cgColor
         
-       
-         entercodeBtn.layer.borderColor = UIColor.darkGray.cgColor
+        entercodeBtn.layer.borderColor = UIColor.darkGray.cgColor
          entercodeBtn.layer.borderWidth = 1.0
          rewardsBtn.layer.borderWidth = 1.0
          rewardsBtn.layer.borderColor = UIColor.darkGray.cgColor
@@ -41,9 +37,7 @@ public class HomeViewController: UIViewController  {
          entercodeBtn.layer.cornerRadius = 8.0
          viewRedeemButton.layer.cornerRadius = 8.0
 
-        
-        
-        // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view.
     }
 
     override public func viewWillAppear(_ animated: Bool) {

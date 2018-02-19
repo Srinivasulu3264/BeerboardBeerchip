@@ -22,7 +22,7 @@ class ContainerViewController: UIViewController  {
     
     @IBAction func homeButtonAction(_ sender: Any){
         
-        let  homeVC = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! HomeViewController
+        let  homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
          homeVC.transitioningDelegate = self
         self.present(homeVC , animated: true, completion: nil)
     }
